@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class UserNtoOne {
+       public static void main(String[] args){
+
+       Scanner input = new Scanner(System.in);
+       System.out.println("Enter a number: ");
+       int number = input.nextInt();
+       int i = 0;
+       while( i <= number){
+       
+
+       i-=1;
+       System.out.println("The number is:" + i);
+
+}
+
+
+
+
+
+
+
+}
+}
