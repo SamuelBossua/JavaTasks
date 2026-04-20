@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Divide {
+
+    public static float divide(int a, int b) {
+        if (b == 0) {
+            return 0;
+        } else {
+            return (float) a / b;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = input.nextInt();
+
+        System.out.println("Result: " + divide(a, b));
+    }
+}
